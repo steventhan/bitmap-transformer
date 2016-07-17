@@ -17,3 +17,5 @@ describe('get the size of the bitmap file', () => {
     expect('../palette-bitmap.bmp').to.not.eql('../converted.bmp');
   });
 });
+
+//will have to rewrite tests once we merge the code bases
