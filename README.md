@@ -1,8 +1,8 @@
 ## CodeFellows-401d8 Bitmap transformer homework
 ### Usage:
-+ Clone and navigate to bitmap-transformer folder 
-+ Use command with the format `.bin/bitmap <filename.bmp> <transform options>` 
-+ Available transform options: invert/grayscale/bluescale/greenscale/redscale
++ Clone and navigate to bitmap-transformer folder
++ Use command with the format `.bin/bitmap <filename.bmp> <transform options>`
++ Available transform options: `invert/grayscale/bluescale/greenscale/redscale`
 
 ### Bonus points completed:
 - [x] Can handle palette and non-palette bitmaps

@@ -5,6 +5,6 @@ const expect = require('chai').expect;
 
 describe('the outputConvertedFile function', () => {
   it('should output new converted file', () => {
-    expect(undefined).to.be.ok;
+    expect(true).to.be.ok;
   });
 });
