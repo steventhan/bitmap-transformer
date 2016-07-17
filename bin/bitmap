@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+const fs = require('fs');
+const BitmapFile = require('../lib/bitmap_class');
+
+var filePath = process.cwd() + '/' + process.argv[2];
+var bitmapFileBuffer = fs.readFileSync(filePath);
+var bitmapFile = new BitmapFile(bitmapFileBuffer);
+bitmapFile.getHeaderInfo();
+bitmapFile.transform(process.argv[3]);
