@@ -3,7 +3,10 @@ const fs = require('fs');
 const BitmapFile = require('../lib/bitmap_class');
 
 var filePath = process.cwd() + '/' + process.argv[2];
-var bitmapFileBuffer = fs.readFileSync(filePath);
-var bitmapFile = new BitmapFile(bitmapFileBuffer);
-bitmapFile.getHeaderInfo();
-bitmapFile.transform(process.argv[3]);
+
+fs.readFile(filePath, (err, data) => {
+  if (err) console.log(err);
+  var bitmapFile = new BitmapFile(data, process.argv[3]);
+  bitmapFile.getHeaderInfo();
+  bitmapFile.transform();
+});
