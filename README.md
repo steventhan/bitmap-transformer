@@ -10,7 +10,7 @@
 - Handle LE and BE computers with a single if statement
 - [x] Create a command line interface
 - [x] Command line interface that can select the transform
-- Can handle various sized bitmaps
+- [x] Can handle various sized bitmaps. **NOTE**** Various sized **non-palette** bitmaps only have the `invert and grayscale` working, haven't figure out the algorithms for `bluescale/greenscale/redscale` yet. All the options for palette bitmap should be working as intended even for various sized.
 - [x] Make your command install-able on npm and use a "bin"
 
 ### Contributors:
