@@ -3,7 +3,10 @@
     "no-console": 0,
     "indent": [
       2,
-      2
+      2,
+      {
+        "SwitchCase": 1,
+      }
     ],
     "quotes": [
       2,
@@ -21,7 +24,8 @@
   "env": {
     "es6": true,
     "node": true,
-    "browser": true
+    "browser": true,
+    "mocha": true
   },
   "globals": {
     "describe": false,
