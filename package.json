@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/steventhan/bitmap-transformer#readme",
   "devDependencies": {
-    "bswap": "^1.1.0",
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
     "gulp-eslint": "^3.0.1",
