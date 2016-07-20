@@ -190,3 +190,5 @@ describe('the BitmapFile class', () => {
     });
   });
 });
+
+// As far as I can tell, the only thing that you're testing is that readFile can read in your transformed bitmaps and return some data. While these tests pass, they're not really that useful for checking the functionality of your transformer other than that it can produce a readable file. You should probably have some tests to check that your different transformations are properly changing color values.

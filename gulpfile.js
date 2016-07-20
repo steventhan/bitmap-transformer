@@ -23,6 +23,8 @@ var eslintRules = {
   extends: 'eslint:recommended'
 };
 
+// If you're including all of the eslint options in your gulpfile, you don't really need to include an eslintrc in your project.
+
 gulp.task('lint:app', () => {
   gulp.src(appFiles)
     .pipe(eslint(eslintRules))
